@@ -1,0 +1,43 @@
+{
+  "name": "bienesraices_mvc",
+  "version": "1.0.0",
+  "description": "mi primer proyecto de nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "server": "nodemon index.js",
+    "css": "postcss public/css/tailwind.css -o public/css/app.css --watch"
+  },
+  "keywords": [
+    "MVC",
+    "Pug.",
+    "Tailwind",
+    "MySql",
+    "Sequelize"
+  ],
+  "author": "Juan Munoz",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.3.3",
+    "nodemailer": "^6.9.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.32.0",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "nodemon": "^1.14.9",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0",
+    "sequelize-cli": "^5.3.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
